@@ -1,1 +1,22 @@
-/* Add your CSS here */
+.container {
+  border: 5px solid transparent;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.container .sch, .fac, .too {
+  background-color: rgb(184, 25, 25);
+  border: 5px solid rgb(184, 25, 25);
+  width: 80px;
+}
+
+h1 {
+  font-size: 80px;
+  color: rgb(4, 0, 29);
+}
+
+ body {
+  background-color: rgb(255, 250, 243);
+}
