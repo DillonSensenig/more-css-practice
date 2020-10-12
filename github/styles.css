@@ -1,1 +1,38 @@
-/* Add your CSS here */
+* {
+  margin: 5%;
+}
+
+h1, h4 {
+  text-align: center;
+}
+
+h4 {
+  color: gray;
+}
+
+em {
+  text-align: center;
+  color: rgb(0, 140, 255);
+}
+
+img {
+  float: left;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.one {
+  float: left;
+    flex: 1;
+    border: 2px solid transparent;
+}
+
+.two {
+    margin-right: 20px;
+    float: right;
+}
+
