@@ -1,1 +1,45 @@
-/* Add your CSS here */
+
+body {
+  background-color: whitesmoke
+}
+
+.container {
+  display: flex;
+}
+
+.container {
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  background: whitesmoke;
+}
+
+.container div {
+  font-size: 2vw;
+  padding: .4em;
+  color: black;
+  flex: 1;
+}
+
+.container {
+  float: left;
+  margin: 10px;
+  padding: 20px;
+  height: 100%;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+  float: right;
+}
+
+h4 {
+  color: lightgray;
+}
